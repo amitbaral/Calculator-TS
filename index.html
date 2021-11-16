@@ -2,11 +2,53 @@
   <head>
     <title>Calculator</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/css/style.css" />
   </head>
-
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="calculator">
+        <p class="title1">amit baral</p>
+        <p class="tagline">electronic calculator</p>
+        <div class="info_wrap">
+          <div class="text_input" id="answer"></div>
+          <div class="calc_indicator"></div>
+        </div>
+
+        <div class="row">
+          <button class="keys ctrl">AC</button>
+          <button class="keys ctrl dlt">
+            <i class="fas fa-backspace"></i>
+          </button>
+          <button class="keys percent">%</button>
+          <button class="keys compute">÷</button>
+        </div>
+        <div class="row">
+          <button class="keys numbers">7</button>
+          <button class="keys numbers">8</button>
+          <button class="keys numbers">9</button>
+          <button class="keys compute">x</button>
+        </div>
+        <div class="row">
+          <button class="keys numbers">4</button>
+          <button class="keys numbers">5</button>
+          <button class="keys numbers">6</button>
+          <button class="keys compute">-</button>
+        </div>
+        <div class="row">
+          <button class="keys numbers">1</button>
+          <button class="keys numbers">2</button>
+          <button class="keys numbers">3</button>
+          <button class="keys tall compute">+</button>
+        </div>
+        <div class="row">
+          <button class="keys numbers">0</button>
+          <button class="keys numbers">.</button>
+          <button class="keys executed">=</button>
+        </div>
+      </div>
+    </div>
 
     <script src="src/index.ts"></script>
   </body>
+
 </html>
